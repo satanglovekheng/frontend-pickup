@@ -1,0 +1,24 @@
+.custom-datepicker {
+    font-size: 0.8rem; /* Adjust the font size */
+  }
+  
+  .custom-datepicker .react-datepicker__header {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+  }
+  
+  .custom-datepicker .react-datepicker__month-container {
+    width: 90%; /* Adjust the width */
+  }
+  
+  .custom-datepicker .react-datepicker__day,
+  .custom-datepicker__day-name {
+    width: 1.5rem; /* Adjust the day cell width */
+    height: 1.5rem; /* Adjust the day cell height */
+    line-height: 1.5rem;
+  }
+  
+  .custom-datepicker .react-datepicker__day--selected {
+    background-color: #4f46e5; /* Change the selected day background color */
+  }
+  
